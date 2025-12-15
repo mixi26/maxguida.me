@@ -1,13 +1,23 @@
-// Initialize ScrollReveal
-const sr = ScrollReveal({
-    distance: '50px',
-    duration: 1000,
-    easing: 'ease-out',
-    reset: false // If true, animations repeat every time you scroll up/down
-});
+// Toggle the Contact Me overlay
+function toggleContactMe(action) {
+    const pane = document.getElementById('contact-me-pane');
+    if (action === 'show') {
+        pane.classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; // Stop background scrolling
+    } else {
+        pane.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+    }
+}
 
-// Target elements
-sr.reveal('.headline', { delay: 200, origin: 'bottom' });
-sr.reveal('.sub-headline', { delay: 400, origin: 'bottom' });
-sr.reveal('.section-title', { delay: 200, origin: 'left' });
-sr.reveal('.card', { interval: 200, origin: 'bottom' }); // 'interval' cascades the cards one by one
+// Toggle Mobile Navigation
+function toggleMobileNav() {
+    const nav = document.getElementById('mobile-nav');
+    if (nav.classList.contains('hidden')) {
+        nav.classList.remove('hidden');
+        nav.classList.add('flex');
+    } else {
+        nav.classList.add('hidden');
+        nav.classList.remove('flex');
+    }
+}
