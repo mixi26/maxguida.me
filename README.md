@@ -1,1 +1,2 @@
-# mixi26.github.io
+# My website
+Website to house projects and other assorted stuff
