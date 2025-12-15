@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Guida | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MG</div>
+        <ul class="nav-links">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#extras">Extras</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="container">
+        <div class="hero-content">
+            <h1 class="headline">Hey, I'm Max.</h1>
+            <p class="sub-headline">Here, you can check out what I'm working on. :)</p>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="grid">
+            
+            <div class="card">
+                <div class="card-image" style="background-color: #3498db;"></div> <div class="card-text">
+                    <h3>Project Name</h3>
+                    <p>A brief description of the project goes here.</p>
+                    <a href="#">View Project &rarr;</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-color: #e74c3c;"></div>
+                <div class="card-text">
+                    <h3>Another App</h3>
+                    <p>Building tools for the future of web dev.</p>
+                    <a href="#">View Project &rarr;</a>
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="card-image" style="background-color: #2ecc71;"></div>
+                <div class="card-text">
+                    <h3>Design Work</h3>
+                    <p>A collection of my UI/UX experiments.</p>
+                    <a href="#">View Project &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Max Guida. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
