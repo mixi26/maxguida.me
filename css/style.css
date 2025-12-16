@@ -782,7 +782,18 @@ a:visited {
 }
 
 /* =========================================
-   5. RESPONSIVE QUERIES
+   5. MOBILE NAV BLUR EFFECT
+   ========================================= */
+
+#mobile-nav {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+
+/* =========================================
+   6. RESPONSIVE QUERIES
    ========================================= */
 
 @media only screen and (max-width: 413px) {
