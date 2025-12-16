@@ -13,14 +13,14 @@
     
     <link href="css/style.css" rel="stylesheet" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&display=swap" rel="stylesheet">
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
-<body id="top" class="bg-gray-50 text-gray-900 font-serif pb-24">
+<body id="top" class="bg-gray-50 text-gray-900 font-sans pb-24">
 
-    <nav id="nav-on-scroll" class="fixed hidden md:block w-full p-4 z-40 bg-amber-200 bg-opacity-95 shadow-md transition-all duration-300">
+    <nav id="nav-on-scroll" class="fixed hidden md:block w-full p-4 z-40 bg-lime-300 bg-opacity-95 shadow-md transition-all duration-300">
         <div class="w-11/12 lg:w-9/12 mx-auto flex justify-between items-center">
             
             <a href="index.html" class="no-underline">
@@ -43,7 +43,7 @@
 
     <div id="contact-me-pane" class="fixed hidden z-50 w-full md:w-11/12 left-0 right-0 mx-auto bg-gray-900 text-white p-10 rounded-t-xl shadow-2xl transition-all duration-500 ease-in-out contact-me-inactive h-[85vh] overflow-y-auto">
         <div class="max-w-3xl mx-auto relative">
-            <div class="absolute top-0 right-0 cursor-pointer hover:text-amber-700 transition" onclick="toggleContactMe('hide')">
+            <div class="absolute top-0 right-0 cursor-pointer hover:text-lime-600 transition" onclick="toggleContactMe('hide')">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
             </div>
             <h2 class="text-5xl font-extrabold mb-10 mt-10">Contact Me</h2>
@@ -89,7 +89,13 @@
             </div>
             
             <div class="animate__animated animate__fadeInUp mt-10 text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
-                Hey, I'm <span class="text-lime-600 underline--magical">Max</span>.<br>
+                Hey, I'm 
+                <a href="https://www.thecomet.net/news/22466036.hitchin-school-student-wins-four-music-awards-24-hours/" 
+                   target="_blank" 
+                   class="text-lime-600 underline--magical hover:text-lime-700 transition">
+                   Max
+                </a>.
+                <br>
                 <span class="text-2xl lg:text-3xl text-gray-600 block mt-6 font-bold">This is where I'll dump anything I'm currently working on or find interesting!</span>
             </div>
         </div>
